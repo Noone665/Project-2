@@ -27,6 +27,6 @@ Add description here
 ### [Jonathon]
 
 ### [Jack]
--Coded Hero Section
--Coded Value Proposition
+- Coded Hero Section
+- Coded Value Proposition
 ### [David]
