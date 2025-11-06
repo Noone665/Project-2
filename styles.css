@@ -85,3 +85,8 @@ body, html {
 .content {
   padding: 20px;
 }
+
+.footer{
+background-color: gray;
+color: white;
+}
