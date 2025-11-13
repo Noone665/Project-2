@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engi-Connect Company Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- control of menu-->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+  <!-- popout sidebar -->
+  <div class="sidebar">
+    <a href="index.html">Home</a>
+    <a href="./pages/profile.html">Profile</a>
+    <a href="./pages/PendingAplication.html">Pending Application</a>
+    <a href="./pages/JobListings.html">Job Listings</a>
+    <a href="./pages/support.html">Support</a>
+  </div>
+
+
+  <label for="menu-toggle" class="overlay"></label>
+
+  <!-- top bar -->
+  <nav>
+    <div class="navbar">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <div class="site-name">
+        <a href="index.html">Engi-Connect</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main content -->
+  <div class="content">
+
+    <h1>Company Dashboard</h1>
+    <p>Welcome, <b>Company Tech</b>. This is your basic company page.</p>
+
+    <hr>
+
+    <!-- company header -->
+    <h2>Company Info</h2>
+    <div style="width:60px; height:60px; border-radius:50%; background:#ccc;"></div>
+    <p><b>Company Tech</b><br>
+    Engineering Partners, Inc.</p>
+
+    <ul>
+      <li>Projects Posted: 4</li>
+      <li>Applications Received: 8</li>
+      <li>Active Projects: 2</li>
+    </ul>
+
+    <hr>
+
+    <!-- form -->
+    <h2>Post a New Project</h2>
+
+    <p>Project Title<br>
+      <input type="text" placeholder="Project title here">
+    </p>
+
+    <p>Description<br>
+      <textarea rows="4" cols="40" placeholder="Type description here"></textarea>
+    </p>
+
+    <p>Skills Required<br>
+      <input type="text" placeholder="HTML, CSS, etc">
+    </p>
+
+    <p>Duration<br>
+      <select>
+        <option>8 weeks</option>
+        <option>12 weeks</option>
+        <option>16 weeks</option>
+      </select>
+    </p>
+
+    <p>Compensation ($)<br>
+      <input type="number" placeholder="0">
+    </p>
+
+    <button type="button">Create Project</button>
+
+    <hr>
+
+    <!-- projects -->
+    <h2>Posted Projects</h2>
+
+    <p>
+      <b>Campus Job Board Redesign</b><br>
+      12 applicants<br>
+      Status: Active<br>
+      Posted: Oct 20<br>
+      <button type="button">View Applications</button>
+    </p>
+
+    <p>
+      <b>Intern Portal Prototype</b><br>
+      5 applicants<br>
+      Status: Closed<br>
+      Posted: Sept 29<br>
+      <button type="button">View Applications</button>
+    </p>
+
+    <hr>
+
+    <!-- applications-->
+    <h2>Recent Applications</h2>
+
+    <p>
+      <b>Sarah Lopez</b><br>
+      Applied to: Campus Job Board Redesign<br>
+      Skills: HTML, CSS<br>
+      Date: Oct 21<br>
+      <button type="button">View Profile</button>
+      <button type="button">Accept</button>
+      <button type="button">Reject</button>
+    </p>
+
+    <p>
+      <b>Jake Martin</b><br>
+      Applied to: Intern Portal Prototype<br>
+      Skills: JavaScript, Figma<br>
+      Date: Oct 19<br>
+      <button type="button">View Profile</button>
+      <button type="button">Accept</button>
+      <button type="button">Reject</button>
+    </p>
+
+  </div>
+
+  <!-- footer-->
+  <footer>
+    <hr>
+    <div class="footer">
+      <p>Copyright: None</p>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact Us</a>
+      <p></p>
+      <p>Social Media</p>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
