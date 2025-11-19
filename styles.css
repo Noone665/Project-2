@@ -223,6 +223,7 @@ table {
 .box {
   padding: 20px;
 }
+<<<<<<< HEAD
 
 .grid-container {
     display: grid;
@@ -297,3 +298,48 @@ h3 {
 .btn:hover {
     background: #5f0202;
 }
+=======
+.filter-box {
+  background-color: rgb(255, 163, 163);       /* change color if you want */
+  padding: 20px;                 /* space inside the box */
+  border: 1px solid #ccc;        /* light gray border */
+  width: 250px;                  /* filter box size */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* soft shadow */
+}
+
+.filter-box label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.filter-box p {
+  margin: 15px 0 5px 0;
+  font-weight: bold;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  transform: scale(1.4);   /* makes them 40% bigger */
+  margin-right: 6px;       /* space between box and text */
+
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none; /* remove list bullets */
+  padding: 0px;
+  bottom: 0;
+}
+
+.pagination li a {
+  display: block; /* let links fill the list item */
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(190, 3, 3);  
+  margin: 0 4px;
+  border-radius: 5px; /* add rounded borders */
+}
+>>>>>>> fb9613b0ac73491bd837d125dbe1f6c175f34099
