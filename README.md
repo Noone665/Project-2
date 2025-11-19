@@ -25,6 +25,10 @@ Add description here
 - Formatting for README
 
 ### [Jonathon]
+- Index
+- Sidebar
+- Navbar
+- Project Listings Grid
 
 ### [Jack]
 - Coded Hero Section
