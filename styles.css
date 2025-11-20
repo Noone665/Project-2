@@ -223,7 +223,6 @@ table {
 .box {
   padding: 20px;
 }
-<<<<<<< HEAD
 
 .grid-container {
     display: grid;
@@ -286,7 +285,7 @@ h3 {
 .btn {
     padding: 10px;
     text-align: center;
-    background: #4A6CF7;
+    background: #9e0909;
     color: white;
     border-radius: 6px;
     text-decoration: none;
@@ -298,7 +297,6 @@ h3 {
 .btn:hover {
     background: #5f0202;
 }
-=======
 .filter-box {
   background-color: rgb(255, 163, 163);       /* change color if you want */
   padding: 20px;                 /* space inside the box */
@@ -342,4 +340,3 @@ input[type="radio"] {
   margin: 0 4px;
   border-radius: 5px; /* add rounded borders */
 }
->>>>>>> fb9613b0ac73491bd837d125dbe1f6c175f34099
