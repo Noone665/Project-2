@@ -1,40 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Listings</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
+<!-- Sidebar toggle -->
 <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 
-<!-- popout sidebar -->
-  <div class="sidebar">
-    <a href="./pages/projectlistings.html">Project Listings</a>
-    <a href="profile.html">profile</a>
-    <a href="PendingAplication.html">Pending Application</a>
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="./projectlistings.html">Project Listings</a>
+    <a href="profile.html">Profile</a>
+    <a href="PendingApplication.html">Pending Application</a>
     <a href="JobListings.html">Job Listings</a>
     <a href="support.html">Support</a>
-  </div>
-
-  <label for="menu-toggle" class="overlay"></label>
-<!-- topbar -->
-  <nav>
-    <div class="navbar">
-      <label for="menu-toggle" class="menu-icon">&#9776;</label>
-      <div class="site-name">
-  <a href="../index.html" class="site-link">Engi-Connect</a>
-  
 </div>
-      
+
+<!-- Overlay -->
+<label for="menu-toggle" class="overlay"></label>
+
+<!-- Topbar -->
+<nav class="navbar">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <div class="site-name">
+        <a href="../index.html" class="site-link">Engi-Connect</a>
     </div>
-  </nav>
-    <a>listings</a>
+</nav>
 
+<!-- Main content -->
+<main class="main-content">
+    <!-- Dashboard Header -->
+    <div class="company-header">
+        <div class="company-info">
+            <img src="https://via.placeholder.com/60" alt="Company Logo">
+            <div>
+                <h2>Placeholder Company</h2>
+            </div>
+        </div>
+        <div class="company-stats">
+            <div class="stat">
+                <h3>12</h3>
+                <span>Jobs Posted</span>
+            </div>
+            <div class="stat">
+                <h3>34</h3>
+                <span>Applications Received</span>
+            </div>
+            <div class="stat">
+                <h3>8</h3>
+                <span>Active Jobs</span>
+            </div>
+        </div>
+    </div>
 
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Browse Job Listings</h1>
+        <p>Explore all available job opportunities. Total jobs: 24</p>
+    </div>
 
+    <!-- Search/Filter -->
+    <div class="search-filter">
+        <input type="text" placeholder="Search jobs...">
+        <select>
+            <option>All Categories</option>
+            <option>Software Development</option>
+            <option>Design</option>
+            <option>Marketing</option>
+            <option>Data Science</option>
+        </select>
+        <button>Filter</button>
+    </div>
+
+    <!-- Job Listings -->
+    <div class="project-list">
+        <div class="project-card">
+            <h3>Frontend Developer</h3>
+            <p>Looking for a frontend developer skilled in React and JavaScript to join our team.</p>
+            <div class="project-meta">
+                <span>Company: TechCorp</span>
+                <span>Deadline: Dec 31, 2025</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>UI/UX Designer</h3>
+            <p>Design user-friendly interfaces for our new mobile and web applications.</p>
+            <div class="project-meta">
+                <span>Company: DesignHub</span>
+                <span>Deadline: Nov 30, 2025</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Marketing Analyst</h3>
+            <p>Analyze marketing campaigns and provide insights to optimize engagement.</p>
+            <div class="project-meta">
+                <span>Company: MarketPro</span>
+                <span>Deadline: Jan 15, 2026</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Mobile App Developer</h3>
+            <p>Develop a fitness tracking mobile app for Android and iOS platforms.</p>
+            <div class="project-meta">
+                <span>Company: FitLife</span>
+                <span>Deadline: Dec 10, 2025</span>
+            </div>
+        </div>
+    </div>
+</main>
 
 </body>
 </html>
