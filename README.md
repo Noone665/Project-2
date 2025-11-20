@@ -7,6 +7,7 @@
 - [Jonathon] - [JBriscoe16]
 - [Jack] - [jkirkc1]
 - [David - [TheThird-2007]
+- [Vedansh - VedJoshi112]
 
 ## Project Description
 Add description here
@@ -34,3 +35,6 @@ Add description here
 - Coded Hero Section
 - Coded Value Proposition
 ### [David]
+
+### [Vedansh Joshi]
+student dashboard
